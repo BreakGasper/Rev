@@ -10,53 +10,55 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="match_parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/icono_logo" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:background="@color/white"
-        android:orientation="vertical">
+        android:background="@drawable/radio_flat_regular"
+        android:orientation="vertical"
+        >
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/radioButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Iniciar Sesión"
                 android:layout_margin="3dp"
+                android:layout_weight="1"
                 android:background="@drawable/radio_flat_selector"
                 android:button="@android:color/transparent"
                 android:checked="true"
                 android:gravity="center"
                 android:padding="3dp"
+                android:text="Iniciar Sesión"
                 android:textColor="@color/radio_flat_text_selector"
-                android:textSize="12sp"
-                />
+                android:textSize="12sp" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Registrarse"
                 android:layout_margin="3dp"
+                android:layout_weight="1"
                 android:background="@drawable/radio_flat_selector"
                 android:button="@android:color/transparent"
                 android:gravity="center"
                 android:padding="3dp"
+                android:text="Registrarse"
                 android:textColor="@color/radio_flat_text_selector"
-                android:textSize="12sp"/>
+                android:textSize="12sp" />
         </RadioGroup>
         <!--                android:drawableTop="@drawable/ic_baseline_password_24"-->
 
@@ -76,6 +78,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hintTextColor="@color/cardview_dark_background">
@@ -89,8 +92,10 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
             android:text="¿Olvidaste tu Contraseña?"
             android:textAlignment="textEnd"
             android:textColor="@color/blue_dark"
@@ -106,6 +111,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="15dp"
@@ -115,8 +121,8 @@
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Iniciar Sesión"
-                    android:backgroundTint="@color/blue_dark"/>
+                    android:backgroundTint="@color/blue_dark"
+                    android:text="Iniciar Sesión" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -136,17 +142,21 @@
                         android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:text="Facebook"
-                        android:textAlignment="center" />
+                        android:drawableStart="@drawable/ic_icon_faebook"
+                        android:gravity="center"
+                        android:text="Facebook" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:text="Twitter"
-                        android:textAlignment="center" />
+                        android:drawableStart="@drawable/ic_icon_google"
+                        android:gravity="center"
+                        android:text="Google" />
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
