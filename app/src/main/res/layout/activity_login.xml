@@ -42,7 +42,7 @@
                 android:checked="true"
                 android:gravity="center"
                 android:padding="3dp"
-                android:text="Iniciar Sesión"
+                android:text="@string/login_log"
                 android:textColor="@color/radio_flat_text_selector"
                 android:textSize="12sp" />
 
@@ -56,7 +56,7 @@
                 android:button="@android:color/transparent"
                 android:gravity="center"
                 android:padding="3dp"
-                android:text="Registrarse"
+                android:text="@string/singin_log"
                 android:textColor="@color/radio_flat_text_selector"
                 android:textSize="12sp" />
         </RadioGroup>
@@ -96,8 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_margin="5dp"
-            android:text="¿Olvidaste tu Contraseña?"
-            android:textAlignment="textEnd"
+            android:text="@string/forgot_pass_log"
             android:textColor="@color/blue_dark"
             android:textSize="12sp" />
 
@@ -122,13 +121,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/blue_dark"
-                    android:text="Iniciar Sesión" />
+                    android:text="@string/login_log" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Inicia sesión con redes sociales"
+                    android:text="@string/login_with_netSocial"
                     android:textAlignment="center"
                     android:textColor="@color/blue_dark"
                     android:textStyle="bold" />
@@ -144,9 +143,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:drawableStart="@drawable/ic_icon_faebook"
                         android:gravity="center"
-                        android:text="Facebook" />
+                        android:text="@string/facebook_log"
+                        app:drawableStartCompat="@drawable/ic_icon_faebook" />
 
                     <TextView
                         android:id="@+id/textView5"
@@ -154,9 +153,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:drawableStart="@drawable/ic_icon_google"
                         android:gravity="center"
-                        android:text="Google" />
+                        android:text="@string/google_log"
+                        app:drawableStartCompat="@drawable/ic_icon_google" />
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
