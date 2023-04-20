@@ -1,13 +1,38 @@
 <resources>
     <string name="app_name">Rev</string>
-    <string name="correo_log">Correo electronico</string>
-    <string name="pass_log">Contraseña</string>
+    <string name="empty"> </string>
+
+    <!-- LogIn -->
+    <string name="correo_log">Email</string>
+    <string name="pass_log">Password</string>
     <string name="facebook_log">Facebook</string>
     <string name="google_log">Google</string>
-    <string name="login_with_netSocial">Inicia sesión con redes sociales</string>
-    <string name="login_log">Iniciar Sesión</string>
-    <string name="forgot_pass_log">¿Olvidaste tu Contraseña?</string>
-    <string name="singin_log">Registrarse</string>
+    <string name="login_with_netSocial">Log in with</string>
+    <string name="login_log">Log In</string>
+    <string name="forgot_pass_log">Forgot your Password?</string>
+    <string name="singin_log">Sign Up</string>
+    <!-- SignIn -->
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="profile">Profile</string>
+    <string name="bussiness_name">Business name</string>
+    <string name="type_business">Type of business</string>
+    <string name="full_name">Full Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">DOB</string>
+<!--fragment add review-->
+    <string name="add_review">Add Review</string>
+    <string name="add_photos">Add Photo</string>
+    <string name="preview">View Review</string>
+<!--menu bottom -->
+    <string name="menu_home">Home</string>
+    <string name="menu_collections">Collections</string>
+    <string name="menu_profile">Me</string>
+    <string name="menu_addReview">Add Review</string>
+    <string name="menu_search">Search</string>
+
     <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
